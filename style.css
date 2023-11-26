@@ -1,0 +1,18 @@
+h3
+{
+    font-size: 25px !important
+}
+.btn-success:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+canvas {
+    animation-name: yay;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes yay {
+    from {box-shadow: 00px 00px 100px rgb(0, 102, 255);}
+    to {box-shadow: 00px 00px 100px rgb(111, 0, 255);}
+}
